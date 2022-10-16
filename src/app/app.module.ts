@@ -10,6 +10,9 @@ import { RegistrationFormComponent } from './user/ui/registration-form/registrat
 import { VerificationFormComponent } from './user/ui/verification-form/verification-form.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatSliderModule } from '@angular/material/slider';
+
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    NgbModule
+    NgbModule,
+    MatSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
